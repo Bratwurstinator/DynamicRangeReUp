@@ -1,0 +1,13 @@
+F:\Steam\steamapps\common\RimWorld\Mods\Pistol range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\bin\Debug\PistolRangeTweaken.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Pistol range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\bin\Debug\PistolRangeTweaken.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Pistol range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\obj\Debug\PistolRangeTweaken.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Pistol range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\obj\Debug\PistolRangeTweaken.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Pistol range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\obj\Debug\PistolRangeTweaken.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Pistol range tweaks\Assemblies\PistolRangeTweaken.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Pistol range tweaks\Assemblies\PistolRangeTweaken.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Range tweaks\Assemblies\PistolRangeTweaken.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Range tweaks\Assemblies\PistolRangeTweaken.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\obj\Debug\PistolRangeTweaken.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\obj\Debug\PistolRangeTweaken.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\obj\Debug\PistolRangeTweaken.csproj.AssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Range tweaks\Source\PistolRangeTweaken\PistolRangeTweaken\obj\Debug\PistolRangeTweaken.csproj.CoreCompileInputs.cache

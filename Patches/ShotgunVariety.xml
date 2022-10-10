@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Ammo_12Gauge_Slug" or defName="Ammo_23x75mmR_Slug" or defName="Ammo_20Gauge_Slug"]</xpath>
+        <value>
+            <modExtensions>
+                <li Class="PistolRangeTweaken.AmmoRangeExt">
+                    <mult>1.1</mult>
+                </li>
+            </modExtensions>
+        </value>
+    </Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ammo Variety - Shotguns</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AVCE_Ammo_23x75mmR_Dart" or defName="AVCE_Ammo_20Gauge_Dart" or defName="AVCE_Ammo_12Gauge_Dart"]</xpath>
+					<value>
+						<modExtensions>
+                            <li Class="PistolRangeTweaken.AmmoRangeExt">
+                                <mult>2</mult>
+                            </li>
+                        </modExtensions>
+					</value>
+				</li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

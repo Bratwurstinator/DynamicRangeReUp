@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <StatDef>
+        <defName>DynamicRange</defName>
+        <label>True range</label>
+        <description>The true range of the weapon influenced by quality. When equipped it's also increased by pawn's skill</description>
+        <category>Weapon</category>
+        <defaultBaseValue>0</defaultBaseValue>
+        <minValue>0</minValue>
+        <toStringStyle>FloatTwo</toStringStyle>
+        <showIfUndefined>false</showIfUndefined>
+        <parts>
+          <li Class="StatPart_Quality">
+            <factorAwful>0.7</factorAwful>
+            <factorPoor>0.85</factorPoor>
+            <factorNormal>1</factorNormal>
+            <factorGood>1.05</factorGood>
+            <factorExcellent>1.1</factorExcellent>
+            <factorMasterwork>1.15</factorMasterwork>
+            <factorLegendary>1.5</factorLegendary>
+          </li>
+          <li Class="PistolRangeTweaken.PawnSkillCurveStat">
+              <kurwa>
+                <points>
+                    <li>(0, 0.7)</li>
+                    <li>(3, 0.85)</li>
+                    <li>(5, 1.05)</li>
+                    <li>(8, 1.1)</li>
+                    <li>(15, 1.15)</li>
+                    <li>(20, 1.2)</li>
+                </points>
+              </kurwa>
+          </li>
+          <li Class="PistolRangeTweaken.BipodStatPart"/>
+          <li Class="PistolRangeTweaken.AmmoStatPartRange"/>
+        </parts>
+        <displayPriorityInCategory>895</displayPriorityInCategory>
+    </StatDef>
+</Defs>
